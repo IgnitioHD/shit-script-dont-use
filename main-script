@@ -1,0 +1,218 @@
+local A_1 = 
+{
+    [1] = getrenv()._G.Pass, 
+    [2] = "Reset"
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.Functions
+
+
+-- Idk who just random custom by TryIgnitio 
+-- MOVES LIST -- 
+-- [Z] - Random Cool Combo 1 
+-- [X] - Lighting Ground
+-- [C] - Kick thing
+-- [V] - Cool Combo
+-- [T] - Bravery Slash
+-- (Friendly reminder to do not spam moves as bc it can kick you)
+-- Spawn in
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
+game.Players.LocalPlayer.PlayerGui.CharacterSelection.Character.Value = "Chara"
+wait(6)
+-- Spawned in
+game.Players.LocalPlayer.Character.Head.Voice:Destroy()
+game.Players.LocalPlayer:WaitForChild("StarterPlaylist")
+game.Players.LocalPlayer.StarterPlaylist["1Megalo Strike Back"]:Destroy()
+local Sound = Instance.new("Sound")
+Sound.Parent = game.Players.LocalPlayer.StarterPlaylist
+Sound.Volume = 1
+Sound.Playing = true
+Sound.Looped = true
+Sound.SoundId = "rbxassetid://6485585380" 
+Sound.Name = "no"
+-- Some important shit
+local Player = game.Players.LocalPlayer
+local Backpack = Player.Backpack
+Player.Character.HateArm:Remove()
+Player.Character.HeartLocket:Remove()
+game.Players.LocalPlayer.Character["Karma"]:Destroy()
+game.Players.LocalPlayer.Character.Head.HealthBar.Frame.StaminaBar:Destroy()
+game.Players.LocalPlayer.Character["HateMode"]:Destroy()
+game.Players.LocalPlayer.Character["FullHateMode"]:Destroy()
+game.Players.LocalPlayer.Backpack.Main.WalkSpeed.Value = "66"
+local Anim = Instance.new("Animation") Anim.AnimationId = "rbxassetid://4900761581" local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim) k:Play() k:AdjustSpeed(1)
+game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light1.AnimationId = "rbxassetid://5776233108"
+game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light2.AnimationId = "rbxassetid://5776230796"
+game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light3.AnimationId = "rbxassetid://5776253664"
+game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light4.AnimationId = "rbxassetid://5776256280"
+game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light5.AnimationId = "rbxassetid://5776249806"
+game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light6.AnimationId = "rbxassetid://4929733967"
+-- intro
+-- (No intro rn)
+-- [Cool Combo] [Z] Start
+local mouse = game.Players.LocalPlayer:GetMouse()
+mouse.KeyDown:Connect(function(k) 
+	if k == "t" then
+local A_1 = 
+{
+	[1] = getrenv()._G.Pass, 
+	[2] = "KnifeProjectileOrange", 
+	[3] = "Spawn", 
+	[4] = Vector3.new(-27.4101448, 0.400001317, -197.415451)
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.CharaMoves
+Event:InvokeServer(A_1)
+local security = game.ReplicatedStorage.RemoteSecurity["Noob382"]
+
+end
+end)
+-- Cool combo 3 end 
+--Second phase
+
+game.Players.LocalPlayer:WaitForChild("DeathPlaylist")
+game.Lighting.Brightness = 25
+wait(0.05)
+game.Lighting.Brightness = 24
+wait(0.05)
+game.Lighting.Brightness = 23
+wait(0.05)
+game.Lighting.Brightness = 22
+wait(0.05)
+game.Lighting.Brightness = 21
+wait(0.05)
+game.Lighting.Brightness = 20
+wait(0.05)
+game.Lighting.Brightness = 19
+wait(0.05)
+game.Lighting.Brightness = 18
+wait(0.05)
+game.Lighting.Brightness = 17
+wait(0.05)
+game.Lighting.Brightness = 16
+wait(0.05)
+game.Lighting.Brightness = 15
+wait(0.05)
+game.Lighting.Brightness = 14
+wait(0.05)
+game.Lighting.Brightness = 13
+wait(0.05)
+game.Lighting.Brightness = 12
+wait(0.05)
+game.Lighting.Brightness = 11
+wait(0.05)
+game.Lighting.Brightness = 10
+wait(0.05)
+game.Lighting.Brightness = 9
+wait(0.05)
+game.Lighting.Brightness = 8
+wait(0.05)
+game.Lighting.Brightness = 7
+wait(0.05)
+game.Lighting.Brightness = 6
+wait(0.05)
+game.Lighting.Brightness = 5
+wait(0.05)
+game.Lighting.Brightness = 4
+wait(0.05)
+game.Lighting.Brightness = 3
+wait(0.05)
+wait(3)
+Event:InvokeServer(A_1)
+wait(1)
+game.Players.LocalPlayer.Character.Head.HealthBar.Frame.HealthLabel.Text = "Infinite"
+game.Players.LocalPlayer.Character.Head.HealthBar.Frame.BackHealth.BackgroundColor3 = Color3.new(0,0,0)
+game.Players.LocalPlayer.PlayerGui.UI.Ui.StaminaBar.Bar.BackgroundColor3 = Color3.new(255,0,0)
+game.Players.LocalPlayer.PlayerGui.UI.Ui.ManaBar.Bar.BackgroundColor3 = Color3.new(0,0,0)
+game.Players.LocalPlayer.PlayerGui.UI.Ui.Info.Attack.Text = " "
+game.Players.LocalPlayer.PlayerGui.UI.Ui.Info.Defense.Text = " "
+game.Players.LocalPlayer.Character.Humanoid.Health = "200"
+game.Players.LocalPlayer.DeathPlaylist["1Megalo Strike Back"]:Destroy()
+local Sound = Instance.new("Sound", game.Players.LocalPlayer.PlayerGui)
+Sound.Parent = game.Players.LocalPlayer.DeathPlaylist
+Sound.Volume = 1
+Sound.Playing = true
+Sound.Looped = true
+Sound.SoundId = "rbxassetid://4704993644" 
+Sound.Name = "yes"
+wait(0.033)
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://4725322859"
+local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+k:Play(0.3)
+k:AdjustSpeed(0.75)
+local A_1 = 
+{   
+    [1] = getrenv()._G.Pass,
+    [2] = "Chatted", 
+    [3] = "NO! I cant let you win..", 
+    [4] = Color3.new(175,0,0)
+}   
+local Event = game:GetService("ReplicatedStorage").Remotes.Events
+Event:FireServer(A_1)
+wait(5.95)
+local args = {
+    [1] = {
+        [1] = getrenv()._G.Pass,
+        [2] = "PlaySound",
+        [3] = game:GetService("ReplicatedStorage").Resources.Sounds.Moves.SpecialHell2.Fire,
+        [4] = game:GetService("Players").LocalPlayer.Character.Head
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.Functions:InvokeServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = getrenv()._G.Pass,
+        [2] = "PlaySound",
+        [3] = game:GetService("ReplicatedStorage").Resources.Sounds.Moves.SpecialHell2.Fire,
+        [4] = game:GetService("Players").LocalPlayer.Character.Head
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.Functions:InvokeServer(unpack(args))
+local A_1 = 
+{   
+    [1] = getrenv()._G.Pass,
+    [2] = "Chatted", 
+    [3] = "Heh. Heh. Heh.", 
+    [4] = Color3.new(175,0,0)
+}   
+local Event = game:GetService("ReplicatedStorage").Remotes.Events
+Event:FireServer(A_1)
+wait(5)
+local A_1 = 
+{   
+    [1] = getrenv()._G.Pass,
+    [2] = "Chatted", 
+    [3] = "I guess i can stop holding back.", 
+    [4] = Color3.new(175,0,0)
+}   
+local Event = game:GetService("ReplicatedStorage").Remotes.Events
+Event:FireServer(A_1)
+local A_1 = 
+{
+	[1] = getrenv()._G.Pass, 
+	[2] = "SpecialHell2", 
+	[3] = "Spawn", 
+	[4] = Vector3.new(-27.4101448, 0.400001317, -197.415451)
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.CharaMoves
+Event:InvokeServer(A_1)
+wait(5)
+local args = {
+    [1] = {
+        [1] = getrenv()._G.Pass,
+        [2] = "KnifeColor",
+        [3] = "ChangeColor",
+        [4] = nil --[[Color3]],
+        [5] = 1,
+        [6] = "RedMode"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.CharaMoves:InvokeServer(unpack(args))
+
+local security = game.ReplicatedStorage.RemoteSecurity["Noob382"]
+game.Players.LocalPlayer.Backpack.Main.WalkSpeed.Value = "56"
+-- End of script noob
+
+
